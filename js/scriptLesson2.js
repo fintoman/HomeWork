@@ -75,19 +75,30 @@
 //Зробіть сервіс який отримує тризначне число
 //Поверніть користувачу сумму цих чисел
 
+// let n = prompt("Введіть трехзначне число");
+// if (n >= 100 && n < 1000) {
+//   let sum = 0;
 
+//   while (n > 0) {
+//     let ld = n % 10;
+//     sum += ld;
+//     n = Math.floor(n / 10);
+//   }
+//   alert(sum);
+// } else {
+//   alert("УПС ЩОСЬ ПІШЛО НЕ ТАК!!!");
+// }
 
+// Другий варіант але тут частину рішення нагуглив
+//
 //  const n = prompt ("Введіть трехзначне число")
 //  if ( n > 99 && n < 1000) {
-   
+
 //     function fSumAllDigits(n) {
 //     return [...n.toString()].reduce((acc, el) => acc + parseInt(el), 0);
 //     }
 //     alert (fSumAllDigits(n))
-    
 //     }
 //     else {
 //         alert("УПС ЩОСЬ ПІШЛО НЕ ТАК!!!")
 //             }
-  
- 
