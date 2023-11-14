@@ -42,10 +42,10 @@
 // user.name = "Anton";
 // user.age = "31";
 // user.city = "Kyiv";
-// // console.log(user);
+// console.log(user);
 // delete user.city;
 // user["like flowers"] = true;
-// // console.log(user);
+// console.log(user);
 
 // //***10**
 // // За допомогою циклу “for…in” вивести в консоль ключі і значення об*єкта
