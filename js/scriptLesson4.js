@@ -35,3 +35,19 @@
 // function() { alert("Ви погодились."); },
 // function() { alert("Ви скасували виконання."); }
 // );
+
+// відповідь
+
+// const ask = (question, yes, no) => {
+//   if (confirm(question)) yes();
+//   else no();
+// };
+// ask(
+//   "Ви згодні?",
+//   function () {
+//     alert("Ви погодились.");
+//   },
+//   function () {
+//     alert("Ви скасували виконання.");
+//   }
+// );
