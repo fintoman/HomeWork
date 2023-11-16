@@ -38,16 +38,10 @@
 
 // відповідь
 
-// const ask = (question, yes, no) => {
-//   if (confirm(question)) yes();
-//   else no();
-// };
+// let ask = (question, yes, no) => (confirm(question) ? yes() : no());
+
 // ask(
 //   "Ви згодні?",
-//   function () {
-//     alert("Ви погодились.");
-//   },
-//   function () {
-//     alert("Ви скасували виконання.");
-//   }
+//   () => alert("Ви погодились"),
+//   () => alert("Ви скасували виконання.")
 // );
