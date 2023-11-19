@@ -49,3 +49,43 @@
 // student.showinfo.bind(studentTwo)();
 // student.showinfo.call(studentFree);
 // student.showinfo.apply(studentFor);
+
+// --2--
+// Написати дві кнопки і закріпити на них функції
+// при натисканні на кнопку html - має видати коротке визначення що це таке
+// при натисканні на кнопку css - має видати коротке визначення що це таке
+
+// const inf = {
+//   showitems() {
+//     console.log("infa:", this.items);
+//   },
+// };
+
+// const html = {
+//   items:
+//     "HTML (от англ. HyperText Markup Language — «язык гипертекстовой разметки»)",
+// };
+
+// const css = {
+//   items: "CSS (англ. Cascading Style Sheets, укр. Каскадні таблиці стилів)",
+// };
+
+// inf.showitems.bind(html)();
+
+// document
+//   .querySelector(`#htmll`)
+//   .addEventListener(`click`, inf.showitems.bind(html));
+
+// inf.showitems.bind(css)();
+
+// document
+//   .querySelector(`#csss`)
+//   .addEventListener(`click`, inf.showitems.bind(css));
+
+// --3--
+// Написати функцію магазин, яка отримує назву товару, ціну за кг і кількість товару
+// функція має повертати назву товару і вартість
+// перевірити на варіантах:
+// 1) banana 30, 4,5
+// 2) cherry 58, 1,3
+// 3) jrange 89. 3,4
