@@ -89,3 +89,30 @@
 // 1) banana 30, 4,5
 // 2) cherry 58, 1,3
 // 3) jrange 89. 3,4
+
+// function shop(fruit) {
+//   const totalCost = Math.round(fruit.cost * fruit.quantity);
+//   console.log(`${fruit.name}: ${totalCost} грн вартість`);
+// }
+
+// const sumFrut = {
+//   name: "banana",
+//   cost: 30,
+//   quantity: 4.5,
+// };
+
+// const cherry = {
+//   name: "cherry",
+//   cost: 1,
+//   quantity: 1.3,
+// };
+
+// const jrange = {
+//   name: "jrange",
+//   cost: 89,
+//   quantity: 3.4,
+// };
+
+// shop(sumFrut);
+// shop(cherry);
+// shop(jrange);
