@@ -8,5 +8,5 @@
 // </body>
 // </html>
 
-let element = document.querySelector("[data-widget-name]");
-alert(element.getAttribute("data-widget-name"));
+// let element = document.querySelector("[data-widget-name]");
+// alert(element.getAttribute("data-widget-name"));
