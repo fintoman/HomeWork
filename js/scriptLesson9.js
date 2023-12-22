@@ -29,3 +29,12 @@
 // -----3----
 
 // Створіть дерево, яке показує/приховує дочірні вузли при кліці
+
+// const parrent = document.querySelector("#parrent");
+// const child = document.querySelector("#child");
+// const child2 = document.querySelector("#child2");
+
+// parrent.addEventListener("click", () => {
+//   child.style.display = child.style.display === "none" ? "block" : "none";
+//   child2.style.display = child2.style.display === "none" ? "block" : "none";
+// });
